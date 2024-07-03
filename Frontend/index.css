@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #72EDF2 10%, #5151E5 100%);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.left-section  {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 30px;
+}
+
+.right-section {
+    padding-right: 50px;
+}
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #5151E5;
+    
+}
+
+.form-section {
+    margin: 20px 0;
+}
+
+.form-section input {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+    border: 2px solid #5151E5;
+    border-radius: 4px;
+}
+
+.form-section button {
+    padding: 10px 20px;
+    background-color: #5151E5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-section button:hover {
+    background-color: #262667;
+}
+
+.text-section {
+    margin: 20px 0;
+    color: #5151E5;
+    text-align: center;
+}
+
+.image-section img {
+    width: 600px;
+    height: 400px;
+    border-radius: 8px;
+}
+h4 {
+    color: #44449c;
+    margin-top: -1%;
+}
+
+.abc {
+    display: none;
+}
+
+#sentiment {
+    font-size: 40px;
+}
